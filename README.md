@@ -65,5 +65,7 @@ If we look in Active Directory, we see all the users that the script created for
 ![image](https://github.com/user-attachments/assets/0e328cdc-6359-44a1-8e83-0de9762dc996)
 
 
-15. Log into the Windows 10 Client VM with a user account that our PowerShell script created. After logging in 
+15. Log into the Windows 10 Client VM with a user account that our PowerShell script created. After logging in, open a command prompt and run "ipconfig". You should have an IP address within the scope we defined, a subnet mask, and a default gateway. Try to ping your domain and Google. If you are unable to ping either of those, you need to go back and look at your DNS, NAT, and DHCP settings. If you are able to join the domain but do not have an internet connection on the Windows 10 Client VM then it is likely that your NAT settings are incorrect or that you have not set the DC to be your DNS server. 
+
+![image](https://github.com/user-attachments/assets/da01abc6-e0ec-4e57-b9b8-1b68c2178359)
 
