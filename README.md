@@ -18,7 +18,7 @@ We'll then proceed to the Windows 10 client, joining it to the domain and verify
 ![image](https://github.com/user-attachments/assets/5fd932c7-e2c1-4160-9739-c8b0c3f3fc33)
 ![image](https://github.com/user-attachments/assets/ebd92ca7-2481-443a-8131-abb511c9ad37)
 
-3. Log into the Server 2019 VM with the administrator account you created during setup. Find your two NICs adn rename them. The NIC with an APIPA address (169.254.0.1) is our internal NIC. Open the IPv4 properties for the internal NIC and change the IP address to 172.16.0.1 255.255.255.0 and DNS to 172.16.0.1. <br></br>
+3. Log into the Server 2019 VM with the administrator account you created during setup. Find your two NICs and rename them. The NIC with an APIPA address (169.254.0.1) is our internal NIC. Open the IPv4 properties for the internal NIC and change the IP address to 172.16.0.1 255.255.255.0 and DNS to 172.16.0.1. <br></br>
 ![image](https://github.com/user-attachments/assets/28b0f29f-b6ee-4c60-8dbf-41c87134f74c)
 
 4. Install Active Directory Domain Services. <br></br>
