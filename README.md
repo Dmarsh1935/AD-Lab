@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to my Home Active Directory Lab! This lab provides a hands-on experience in setting up and managing an Active Directory environment using Windows Server 2019 as a domain controller and a Windows 10 client, all within Oracle VirtualBox. This lab is an excellent opportunity for anyone interested in learning the fundamentals of Active Directory, network configuration, and virtual machine management.
+Welcome to my Home Active Directory Lab! This lab provides hands-on experience in setting up and managing an Active Directory environment using Windows Server 2019 as a domain controller and a Windows 10 client, all within Oracle VirtualBox. This lab is an excellent opportunity for anyone interested in learning the fundamentals of Active Directory, network configuration, and virtual machine management.
 
 In this lab, I will guide you through the essential steps to create a functional Active Directory setup. Starting with the configuration of a Windows Server 2019 virtual machine as the domain controller, we'll explore the installation and configuration of key services such as Active Directory Domain Services (AD DS) and DHCP. I will also set up NAT for internet connectivity and establish a private network for the domain.
 
